@@ -1,0 +1,265 @@
+{
+  "RegisteredUsers": [
+    {
+      "id": 1,
+      "firstname": "Tony",
+      "lastname": "Stark",
+      "email": "tony@mcu.com",
+      "phone": "001-123-4567",
+      "address": "chd",
+      "medical_history": "abc",
+      "pwd": "123",
+      "confirmPwd": "123"
+    },
+    {
+      "id": 2,
+      "name": "Black",
+      "lastname": "Widow",
+      "email": "black-widow@mcu.com",
+      "phone": "001-123-4568",
+      "address": "asr",
+      "medical history": "xyz",
+      "pwd": "456",
+      "confirmPwd": "456"
+    },
+    {
+      "fullName": "aa",
+      "firstName": "a",
+      "lastName": "a",
+      "email": "a",
+      "phone": "a",
+      "address": "a",
+      "medical_history": "a",
+      "password": "a",
+      "confirmPassword": "a",
+      "id": 3
+    },
+    {
+      "fullName": "bb",
+      "firstName": "b",
+      "lastName": "b",
+      "email": "b",
+      "phone": "b",
+      "address": "aab",
+      "medical_history": "b",
+      "password": "b",
+      "confirmPassword": "b",
+      "id": 4
+    },
+    {
+      "firstName": "arushi",
+      "lastName": "awasthi",
+      "email": "abc@gmail.com",
+      "phone": "111111",
+      "address": "sss",
+      "medical_history": "sss",
+      "password": "ss",
+      "confirmPassword": "ss",
+      "id": 5
+    },
+    {
+      "firstName": "a",
+      "lastName": "a",
+      "email": "a",
+      "phone": "a",
+      "address": "a",
+      "medical_history": "a",
+      "password": "a",
+      "confirmPassword": "a",
+      "id": 6
+    },
+    {
+      "firstName": "Vidushi",
+      "lastName": "Awasthi",
+      "email": "123@gmail.com",
+      "phone": "333",
+      "address": "3",
+      "medical_history": "3",
+      "password": "123",
+      "confirmPassword": "123",
+      "id": 7
+    },
+    {
+      "firstName": "11",
+      "lastName": "1",
+      "email": "1",
+      "phone": "1",
+      "address": "1",
+      "medical_history": "1",
+      "password": "1",
+      "confirmPassword": "1",
+      "id": 8
+    },
+    {
+      "firstName": "aaaa",
+      "lastName": "a",
+      "email": "aaa",
+      "phone": "aa",
+      "address": "aaaaa",
+      "medical_history": "aaa",
+      "password": "aaaaa",
+      "confirmPassword": "aaa",
+      "id": 9
+    },
+    {
+      "fullName": "dev123",
+      "firstName": "d",
+      "lastName": "e",
+      "email": "dev123@gmail.com",
+      "phone": "22",
+      "address": "22",
+      "medical_history": "22",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 10
+    },
+    {
+      "firstName": "aaaaa",
+      "lastName": "aaaa",
+      "email": "aaa",
+      "phone": "aaaa",
+      "address": "aaaaa",
+      "medical_history": "aaaa",
+      "password": "123",
+      "confirmPassword": "12344",
+      "id": 11
+    },
+    {
+      "firstName": "a",
+      "lastName": "a",
+      "email": "a",
+      "phone": "a",
+      "address": "a",
+      "medical_history": "a",
+      "password": "123",
+      "confirmPassword": "12",
+      "id": 12
+    },
+    {
+      "firstName": "dsese",
+      "lastName": "sss",
+      "email": "gfgfg",
+      "phone": "vffvf",
+      "address": "aa",
+      "medical_history": "vggg",
+      "password": "aa",
+      "confirmPassword": "asdf",
+      "id": 13
+    },
+    {
+      "firstName": "1",
+      "lastName": "1",
+      "email": "1",
+      "phone": "1",
+      "address": "1",
+      "medical_history": "1",
+      "password": "11111",
+      "confirmPassword": "5",
+      "id": 14
+    },
+    {
+      "firstName": "1",
+      "lastName": "1",
+      "email": "11",
+      "phone": "1",
+      "address": "1",
+      "medical_history": "1",
+      "password": "111",
+      "confirmPassword": "111",
+      "id": 15
+    },
+    {
+      "firstName": "dd",
+      "lastName": "ddd",
+      "email": "dd",
+      "phone": "dd",
+      "address": "1ddcdc",
+      "medical_history": "cdcw",
+      "password": "d",
+      "confirmPassword": "111",
+      "id": 16
+    },
+    {
+      "firstName": "bhanu",
+      "lastName": "rai",
+      "email": "b@r.com",
+      "phone": "1234567890",
+      "address": "chandigarh",
+      "medical_history": "asds",
+      "password": "Bhanu@123",
+      "confirmPassword": "Bhanu@123",
+      "id": 17
+    },
+    {
+      "firstName": "a",
+      "lastName": "a",
+      "email": "a",
+      "phone": "a",
+      "address": "a",
+      "medical_history": "a",
+      "password": "a",
+      "confirmPassword": "a",
+      "id": 18
+    },
+    {
+      "fullName": "swati",
+      "firstName": "s",
+      "lastName": "w",
+      "email": "sonali.s@gmail.com",
+      "phone": "1234567",
+      "address": "abfjgj",
+      "medical_history": "dggs",
+      "password": "abcd",
+      "confirmPassword": "abcd",
+      "id": 19
+    }
+  ],
+  "Upcoming": [
+    {
+      "date": "27 AUG 2019, 09:00am",
+      "name": "The Hound, Khal Drogo",
+      "address": "South Of the Wall",
+      "status": "Pending"
+    },
+    {
+      "date": "17 APR 2019, 09:00am",
+      "name": "Jon Snow, Targerian",
+      "address": "King in the North",
+      "status": "On the Way"
+    },
+    {
+      "date": "27 AUG 2019, 09:00am",
+      "name": "The Hound, Khal Drogo",
+      "address": "South Of the Wall",
+      "status": "Pending"
+    }
+  ],
+  "Past": [
+    {
+      "date": "17 APR 2019, 09:00am",
+      "name": "Jon Snow, Targerian",
+      "address": "King in the North",
+      "status": "Completed"
+    },
+    {
+      "date": "27 AUG 2019, 09:00am",
+      "name": "The Hound, Khal Drogo",
+      "address": "South Of the Wall",
+      "status": "Completed"
+    }
+  ],
+  "FAQ": [
+    {
+      "question": "What are the services provided by us?",
+      "answer": "We provide nursing service at your place. Our nurses are highly qualified."
+    },
+    {
+      "question": "When are our services available?",
+      "answer": "We provide 24x7 hours service at your place"
+    },
+    {
+      "question": "I took TSH test. How soon can I get the reports?",
+      "answer": "After successfully taking the test,within a span of maximum 24hrs, you can collect your report."
+    }
+  ]
+}

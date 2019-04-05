@@ -1,0 +1,27 @@
+<h1><strong>LOGIN</strong></h1>
+<hr>
+<div class="container">
+<div class="flex-container">
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+            <div class="row">
+                <div class="col-md-12">
+                    <label>EMAIL ADDRESS</label>
+                    <input type="email" formControlName="email" required>
+                </div>
+            </div>
+               
+            <div class="row">
+                <div class="col-md-12">
+                    <label>PASSWORD</label>
+                      <input type="password" formControlName="password" required>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="button" type="submit" [disabled]="!loginForm.valid">LOGIN</button>
+           </div>
+           <div class="footer"><p> New User? <a routerLink="">Register!</a></p></div>
+        
+    </form>
+   
+  </div>
+  </div>

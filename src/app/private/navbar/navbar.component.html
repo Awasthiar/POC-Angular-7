@@ -1,0 +1,26 @@
+<div class="top">
+    <nav class="navbar fixed-top navbar-expand-md custom-navbar navbar-dark"  style="font-size: 24px">
+    <div class="nav">
+    <div class="navbar-brand" routerLink="/private/navbar/profile" id="logo_custom" width="10%" alt="logo"><i class="fa fa-heartbeat" style="font-size:26px;color:brown">NursesOnline</i></div>
+    <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon "></span>
+    </button>
+    <!-- <div class="collapse navbar-collapse " id="collapsibleNavbar"> -->
+    <ul class="nav justify-content-flex-end" style="float:right" >
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="assets/images/profile.jpg" class="nav-profile">{{name}}</a>
+    <div class="dropdown-menu">
+    <a class="dropdown-item" routerLink="/private/navbar/profile"><img src="assets/images/profile.jpg" class="nav-profile">{{name}}</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" routerLink="/private/navbar/bookings"><i class="fa fa-ticket" aria-hidden="true" style="padding:5px;width:20px;height:20px;"></i>My Bookings</a>
+    <a class="dropdown-item" routerLink="/private/navbar/faqs"><i class="fa fa-question-circle" aria-hidden="true" style="padding:5px;width:20px;height:20px;"></i>FAQs</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" (click)="logout()"><i class="fa fa-power-off" style="padding:5px;width:20px;height:20px;"></i>Logout</a>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </nav>
+    </div>
+    <br><br>
+    <div class="childRoute"><router-outlet></router-outlet></div>

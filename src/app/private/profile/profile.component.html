@@ -1,0 +1,45 @@
+<h1><strong>PROFILE</strong></h1><hr>
+
+        <div class="col-md-12" align="center">
+                <div class="profile-pic"><img src="assets/images/profile.jpg" class="image-circle"/></div>            
+        </div>
+ <div class="flex-container">               
+    <form [formGroup]="updateForm" (ngSubmit)="onUpdate()">
+            <div class="row">
+              <div class="col-md-6">
+                  <label>FULL NAME</label>
+                    <input type="text" formControlName="fullName" required>
+              </div>
+              <div class="col-md-6">
+                    <label>EMAIL ADDRESS</label>
+                      <input type="email" formControlName="email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label>PHONE NUMBER</label>
+                    <input type="text" formControlName="phone" required>
+                </div>
+            
+                <div class="col-md-6">
+                    <label>ADDRESS</label>
+                      <input type="text" formControlName="address" required>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <label>BRIEF MEDICAL HISTORY(optional)</label>
+                    <input type="text" formControlName="medical_history">
+                </div>
+
+                <div class="btn col-md-6">
+                        <button class="button" type="submit" [disabled]="!updateForm.valid">UPDATE PROFILE</button>
+                   </div> 
+            </div>
+           
+                
+    </form>
+   
+  </div>
+  

@@ -1,0 +1,79 @@
+<h1><strong>REGISTER</strong></h1>
+<hr>
+<div class="container">
+<div class="flex-container">
+    <form [formGroup]="registerForm" (ngSubmit)="register()">
+            <div class="row">
+              <div class="col-md-6">
+                  <label>FIRST NAME</label>
+                    <input type="text" formControlName="firstName" required>
+                     <div *ngIf="registerForm.get('firstName').invalid && (registerForm.get('firstName').dirty || registerForm.get('firstName').touched)" class="alert">
+                       <div *ngIf="registerForm.get('firstName').errors.required">Firstname is required.</div>
+                     </div> 
+              </div>
+              <div class="col-md-6">
+                  <label>LAST NAME</label>
+                  <input type="text" formControlName="lastName" required>
+                  <div *ngIf="registerForm.get('lastName').invalid && (registerForm.get('lastName').dirty || registerForm.get('lastName').touched)" class="alert">
+                        <div *ngIf="registerForm.get('lastName').errors.required">Lastname is required.</div>
+                  </div> 
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label>EMAIL ADDRESS</label>
+                      <input type="email" formControlName="email" required>
+                      <div *ngIf="registerForm.get('email').invalid && (registerForm.get('email').dirty || registerForm.get('email').touched)" class="alert">
+                            <div *ngIf="registerForm.get('email').errors.required">Email is required.</div>
+                      </div> 
+                </div>
+                <div class="col-md-6">
+                    <label>PHONE NUMBER</label>
+                    <input type="text" formControlName="phone" required>
+                    <div *ngIf="registerForm.get('phone').invalid && (registerForm.get('phone').dirty || registerForm.get('phone').touched)" class="alert">
+                            <div *ngIf="registerForm.get('phone').errors.required">Phone Number is required.</div>
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label>ADDRESS</label>
+                      <input type="text" formControlName="address" required>
+                      <div *ngIf="registerForm.get('address').invalid && (registerForm.get('address').dirty || registerForm.get('address').touched)" class="alert">
+                            <div *ngIf="registerForm.get('address').errors.required">Address is required.</div>
+                      </div> 
+                </div>
+                <div class="col-md-6">
+                    <label>BRIEF MEDICAL HISTORY</label>
+                    <input type="text" formControlName="medical_history">
+                    <div *ngIf="registerForm.get('medical_history').invalid && (registerForm.get('medical_history').dirty || registerForm.get('medical_history').touched)" class="alert">
+                            <div *ngIf="registerForm.get('medical_history').errors.required">Medical History is required.</div>
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label>PASSWORD</label>
+                      <input type="password" formControlName="password" required>
+                      <div *ngIf="registerForm.get('password').invalid && (registerForm.get('password').dirty || registerForm.get('password').touched)" class="alert">
+                        <div *ngIf="registerForm.get('password').errors.required">Password is required.</div>
+                      </div> 
+                </div>
+                <div class="col-md-6">
+                    <label>CONFIRM PASSWORD</label>
+                    <input type="password" formControlName="confirmPassword" required >
+                       <div *ngIf="registerForm.get('confirmPassword').invalid && (registerForm.get('confirmPassword').dirty || registerForm.get('confirmPassword').touched)" class="alert">
+                       <div *ngIf="registerForm.get('confirmPassword').errors.required">Confirm Password is required.</div>
+                       <div *ngIf="registerForm.errors?.passwordsMismatch" class="alert">Password and confirm password do not match.</div>
+                      </div> 
+         </div>
+            </div>   
+            <div class="btn">
+                <button class="button" type="submit" [disabled]="!registerForm.valid">REGISTER</button>
+           </div>
+           <div class="footer"><p>Already Registered?<a routerLink="/login">Login!</a></p></div>
+          
+    </form>
+   
+  </div>
+  </div>
